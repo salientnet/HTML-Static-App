@@ -1,0 +1,280 @@
+body {
+    color: #000;
+    font-size: 16px;
+}
+.mobile {
+    display: none;
+}
+.left-panel .minicolors-panel {
+    height: 175px;
+}
+.minicolors-panel .color-value {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #000;
+    padding-left: 5px;
+    background: #eeeeee;
+}
+.left-panel {
+    width: calc(100% - 650px);
+    padding: 60px 100px;
+    height: 100%;
+}
+.left-panel .section {
+    width: 520px;
+    margin: 0 auto;
+    text-align: center;
+    color: #9A9A9A;
+}
+.left-panel .section a {
+    color: #157AFB;
+}
+.left-panel .section h1 {
+    color: #000;
+}
+.left-panel .margin-bottom {
+    margin-bottom: 30px;
+}
+.left-panel .select-section select.size option:hover {
+    color: #F2F6F8;
+}
+.left-panel .form-group {
+    display: inline-block;
+    width: 235px;
+    margin: 20px 10px;
+    text-align: left;
+}
+.left-panel .form-control {
+    color: #000;
+    font-size: 16px;
+}
+.left-panel .icon {
+    display: inline-block;
+    width: 90px;
+    height: 70px;
+    margin: 18px;
+    border: 2px solid #E1EEF4;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 1px 0 0 #E1EEF4;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.left-panel .icon.selected {
+    color: #157AFB;
+    border: 2px solid #157AFB;
+    box-shadow: 0 1px 0 0 #157AFB;
+}
+.left-panel .icon.selected svg path {
+    fill: #157AFB;
+}
+.left-panel .icon:hover {
+    color: #157AFB;
+    border: 2px solid #157AFB;
+    box-shadow: 0 1px 0 0 #157AFB;
+}
+.left-panel .icon:hover svg path {
+    fill: #157AFB;
+}
+.left-panel .no-icon {
+    padding: 20px 0;
+}
+.left-panel .underline {
+    padding-bottom: 25px;
+    border-bottom: 2px dotted #CCCCCC;
+}
+.left-panel .code-section .script-error {
+    color: red;
+    margin: 5px 0 10px;
+}
+.left-panel .code-section .account {
+    margin-top: 5px;
+}
+.left-panel .button-section button {
+    width: 100%;
+    height: 40px;
+    color: #FFF;
+    font-size: 16px;
+}
+.left-panel .button-section .success-message {
+    color: #000;
+}
+.left-panel .button-section .success-message img {
+    float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.right-panel {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 650px;
+    padding: 120px 60px;
+    height: 100%;
+    background: #eee;
+}
+.right-panel a {
+    color: #157AFB;
+}
+.right-panel .section {
+    margin-bottom: 30px;
+}
+.right-panel .section h5, .right-panel .section span {
+    margin-bottom: 5px;
+}
+.right-panel h6 {
+    font-size: 10px;
+    color: #9A9A9A;
+}
+.right-panel .drift-chat-button {
+    padding: 6px 25px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.right-panel .drift-chat-button svg path {
+    fill: inherit;
+}
+.right-panel .drift-chat-button svg {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.right-panel .copyright {
+    margin-top: 100px;
+    color: #9A9A9A;
+}
+
+#circleG{
+	width:70px;
+	margin:auto;
+}
+
+.circleG{
+	background-color:rgb(21,120,251);
+	float:left;
+	height:12px;
+	margin-left:10px;
+	width:12px;
+	animation-name:bounce_circleG;
+		-o-animation-name:bounce_circleG;
+		-ms-animation-name:bounce_circleG;
+		-webkit-animation-name:bounce_circleG;
+		-moz-animation-name:bounce_circleG;
+	animation-duration:2.24s;
+		-o-animation-duration:2.24s;
+		-ms-animation-duration:2.24s;
+		-webkit-animation-duration:2.24s;
+		-moz-animation-duration:2.24s;
+	animation-iteration-count:infinite;
+		-o-animation-iteration-count:infinite;
+		-ms-animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		-moz-animation-iteration-count:infinite;
+	animation-direction:normal;
+		-o-animation-direction:normal;
+		-ms-animation-direction:normal;
+		-webkit-animation-direction:normal;
+		-moz-animation-direction:normal;
+	border-radius:8px;
+		-o-border-radius:8px;
+		-ms-border-radius:8px;
+		-webkit-border-radius:8px;
+		-moz-border-radius:8px;
+}
+
+#circleG_1{
+	animation-delay:0.45s;
+		-o-animation-delay:0.45s;
+		-ms-animation-delay:0.45s;
+		-webkit-animation-delay:0.45s;
+		-moz-animation-delay:0.45s;
+}
+
+#circleG_2{
+	animation-delay:1.05s;
+		-o-animation-delay:1.05s;
+		-ms-animation-delay:1.05s;
+		-webkit-animation-delay:1.05s;
+		-moz-animation-delay:1.05s;
+}
+
+#circleG_3{
+	animation-delay:1.35s;
+		-o-animation-delay:1.35s;
+		-ms-animation-delay:1.35s;
+		-webkit-animation-delay:1.35s;
+		-moz-animation-delay:1.35s;
+}
+
+@keyframes bounce_circleG{
+	0%{}
+
+	50%{
+		background-color:rgb(255,255,255);
+	}
+
+	100%{}
+}
+
+@-o-keyframes bounce_circleG{
+	0%{}
+
+	50%{
+		background-color:rgb(255,255,255);
+	}
+
+	100%{}
+}
+
+@-ms-keyframes bounce_circleG{
+	0%{}
+
+	50%{
+		background-color:rgb(255,255,255);
+	}
+
+	100%{}
+}
+
+@-webkit-keyframes bounce_circleG{
+	0%{}
+
+	50%{
+		background-color:rgb(255,255,255);
+	}
+
+	100%{}
+}
+
+@-moz-keyframes bounce_circleG{
+	0%{}
+
+	50%{
+		background-color:rgb(255,255,255);
+	}
+
+	100%{}
+}
+
+@media (max-width: 1024px) {
+    .left-panel, .right-panel {
+        display: none;
+    }
+    .mobile {
+        display: block;;
+    }
+    .mobile .text-section {
+        padding: 15px 30px;
+    }
+    .mobile .text-section img {
+        width: 50%;
+        margin: 40px 0 30px;
+    }
+    .mobile .image-section img {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+}
